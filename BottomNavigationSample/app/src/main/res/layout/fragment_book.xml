@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/healthyfood" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Sağlıklı Olmak"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text="      Sağlıklı Beslenmek Sağlıklı beslenmek meyve, sebze, düşük karbonhidrat, sağlıklı yağlar, vitaminler ve dengeli kişisel protein tüketim oranlarıyla mümkün olabilir. Tabi su tüketimini de es geçmemek gerekir.\n\n   Su yerine tüketilen çay, kahve asitli içecekler ve meyve suları asla suyun yerini tutamaz. \n\n      Sağlıklı beslenme adına bir çok diyetler mevcut olup her insanın bazal metabolizması birbirinden farklıdır. Bu nedenle konu sağlıksa tıp biliminden yardım almak doğru bir yaklaşımdır.
+           "
+            android:textSize="@dimen/mr_controller_volume_group_list_padding_top" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
